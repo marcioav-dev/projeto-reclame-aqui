@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Reclame Aqui</string>
+    <string name="enviar">Enviar</string>
+    <string name="vazio">Vazio</string>
+    <string name="senha">Senha</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="login">Login</string>
+    <string name="reclame_aqui">Reclame Aqui</string>
+    <string name="limpar">Limpar</string>
+    <string name="cadastrar">Clique Aqui para novo Cadastro</string>
+    <string name="email">Email</string>
+</resources>

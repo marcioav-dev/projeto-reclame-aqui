@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "183729368510",
+    "firebase_url": "https://reclameaqui-66757.firebaseio.com",
+    "project_id": "reclameaqui-66757",
+    "storage_bucket": "reclameaqui-66757.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183729368510:android:db788d2b10d1ed08",
+        "android_client_info": {
+          "package_name": "br.com.sabbetecnologia.reclameaqui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183729368510-d8ob8rmf1gr39nks87sb000hnsrkpur0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.sabbetecnologia.reclameaqui",
+            "certificate_hash": "11b646431f1ea40b4869feda9a8f9de9d9541c39"
+          }
+        },
+        {
+          "client_id": "183729368510-gchjcv5gdi1hp40qk52k2s5t9chmj1ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdMZqPjNqZ4GY0uTnp_quvduiEYesy0hM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183729368510-gchjcv5gdi1hp40qk52k2s5t9chmj1ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

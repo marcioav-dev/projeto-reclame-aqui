@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".usuarioCondomino.telasPrincipais.reclamacoes.ReclamacoesMainActivity">
+
+    <EditText
+        android:id="@+id/edtAMMUreclamacao"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_txt_msg"
+        android:ems="10"
+        android:hint="Digite aqui sua Reclamação ou Sugestão"
+        android:inputType="textMultiLine"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAMMUlimpar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAMMUenviar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/btn_basico"
+        android:text="Enviar"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="@+id/btnAMMUlimpar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnAMMUlimpar"
+        app:layout_constraintTop_toTopOf="@+id/btnAMMUlimpar" />
+
+    <Button
+        android:id="@+id/btnAMMUlimpar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_basico"
+        android:text="Limpar"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnAMMUenviar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtAMMUreclamacao" />
+</android.support.constraint.ConstraintLayout>
